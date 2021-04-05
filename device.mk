@@ -106,7 +106,8 @@ PRODUCT_PACKAGES += \
 
 # TV
 PRODUCT_PACKAGES += \
-    CMLeanbackCustomizer
+    CMLeanbackCustomizer \
+    TvSettingsTank
 
 # USB
 PRODUCT_PACKAGES += \
