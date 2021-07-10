@@ -17,6 +17,9 @@
 ## Device Path
 DEVICE_PATH := device/amazon/tank
 
+## Include developer keys
+-include vendor/a2l5/keys.mk
+
 ## Vendor Blobs
 $(call inherit-product, vendor/amazon/tank/tank-vendor.mk)
 
