@@ -20,3 +20,15 @@ DEVICE_PATH := device/amazon/tank
 # Display
 TARGET_SCREEN_HEIGHT := 1024
 TARGET_SCREEN_WIDTH := 600
+
+# Init
+PRODUCT_PACKAGES += \
+    enableswap.sh \
+    fstab.mt8127 \
+    init.mt8127.rc \
+    init.mt8127usb.rc \
+    init.project.rc \
+    init.ssd.rc \
+    init.trace.rc \
+    ozwpan.sh \
+    ueventd.mt8127.rc
