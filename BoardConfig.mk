@@ -75,6 +75,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt8127
 
+# SELinux
+include device/mediatek/sepolicy/sepolicy.mk
+
 # Shims
 LINKER_FORCED_SHIM_LIBS += \
     /system/lib/liblog.so|libshim_log.so
