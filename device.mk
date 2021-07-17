@@ -17,6 +17,10 @@
 ## Device Path
 DEVICE_PATH := device/amazon/tank
 
+# ATV
+PRODUCT_IS_ATV_SDK := true
+PRODUCT_CHARACTERISTICS := tv,nosdcard
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.r_submix.default \
@@ -75,6 +79,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
     frameworks/native/data/etc/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml
+
+# TV
+PRODUCT_PACKAGES += \
+    LiveTv \
+    TvProvider \
+    TvSettings \
+    tv_input.default
 
 # USB
 PRODUCT_PACKAGES += \
