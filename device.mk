@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
     init.mt8127.rc \
     init.mt8127usb.rc \
     init.project.rc \
-    init.ssd.rc \
     init.trace.rc \
     ozwpan.sh \
     ueventd.mt8127.rc

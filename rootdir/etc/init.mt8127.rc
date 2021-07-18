@@ -5,7 +5,6 @@ import init.connectivity.rc
 import init.charging.rc
 import init.mt8127usb.rc
 import init.aee.rc
-import init.ssd.rc
 import init.no_ssd.rc
 import init.ssd_nomuser.rc
 
