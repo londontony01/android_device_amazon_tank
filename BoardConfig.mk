@@ -24,6 +24,9 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a7
 
+# Bluetooth
+BOARD_HAVE_BLUETOOTH_BCM := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := mt8127
 TARGET_NO_BOOTLOADER := true
