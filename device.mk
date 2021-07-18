@@ -23,6 +23,12 @@ DEVICE_PATH := device/amazon/tank
 ## Vendor Blobs
 $(call inherit-product, vendor/amazon/tank/tank-vendor.mk)
 
+# ADB
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    persist.sys.usb.config=adb
+
 # ATV
 PRODUCT_IS_ATV_SDK := true
 PRODUCT_CHARACTERISTICS := tv,nosdcard
