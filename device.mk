@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
+    libshim_asp \
     libshim_log
 
 # TV
