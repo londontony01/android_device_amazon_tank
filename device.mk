@@ -23,6 +23,10 @@ DEVICE_PATH := device/amazon/tank
 ## Vendor Blobs
 $(call inherit-product, vendor/amazon/tank/tank-vendor.mk)
 
+# AAPT
+PRODUCT_AAPT_CONFIG := xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 # ADB
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.secure=0 \
