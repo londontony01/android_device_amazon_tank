@@ -106,7 +106,8 @@ PRODUCT_COPY_FILES += \
 # Shims
 PRODUCT_PACKAGES += \
     libshim_asp \
-    libshim_log
+    libshim_log \
+    libshim_thermal
 
 # TV
 PRODUCT_PACKAGES += \

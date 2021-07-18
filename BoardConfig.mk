@@ -81,6 +81,7 @@ include device/mediatek/sepolicy/sepolicy.mk
 
 # Shims
 LINKER_FORCED_SHIM_LIBS += \
+    /system/bin/thermald|libshim_thermal.so \
     /system/lib/liblog.so|libshim_log.so
 
 # Vendor
