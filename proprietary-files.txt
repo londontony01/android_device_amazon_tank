@@ -1,0 +1,165 @@
+#
+# Vendor Blobs for tank
+#
+
+# Audio
+etc/audio_effects.conf
+etc/audio_policy.conf
+lib/hw/audio.primary.mt8127.so
+lib/hw/audio.sco.mt8127.so
+lib/libaudiocompensationfilter.so
+lib/libaudiocomponentengine.so
+lib/libaudiocustparam.so
+lib/libaudiodcrflt.so
+lib/libaudiosetting.so
+lib/libbessound_hd_mtk.so
+lib/libbessound_mtk.so
+lib/libblisrc.so
+lib/libblisrc32.so
+lib/libcvsd_mtk.so
+lib/libmsbc_mtk.so
+lib/libmtklimiter.so
+lib/libmtkshifter.so
+lib/libspeech_enh_lib.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib/libdlb_converter.so
+
+# Bluetooth
+etc/bluetooth/auto_pair_devlist.conf
+etc/bluetooth/btmac.sh
+etc/bluetooth/bt_vendor.conf
+etc/bluetooth/rfkill_bt.sh
+
+# Codecs
+etc/media_codecs.xml
+etc/media_profiles.xml
+etc/mtk_omx_core.cfg
+lib/libGdmaScalerPipe.so
+lib/libJpgDecPipe.so
+lib/libMtkOmxAIVPlayer.so
+lib/libMtkOmxCore.so
+lib/libMtkOmxMp3Dec.so
+lib/libMtkOmxVdec.so
+lib/libMtkOmxVenc.so
+lib/libSwJpgCodec.so
+lib/libgui_ext.so
+lib/libmhalImageCodec.so
+lib/libmmprofile.so
+lib/libmp2dec_sa.ca7.so
+lib/libmp2dec_sb.ca7.so
+lib/libmp4enc_sa.ca7.so
+lib/libvc1dec_sa.ca7.so
+lib/libvcodec_oal.so
+lib/libvcodec_utility.so
+lib/libvcodecdrv.so
+lib/libvp8dec_sa.ca7.so
+lib/libvp9dec_sa.ca7.so
+
+# DRM
+bin/amzn_dha_hmac
+bin/amzn_dha_tool
+bin/amzn_drmprov_check
+bin/amzn_drmprov_tool
+bin/kisd
+lib/lib_uree_mtk_video_secure_al.so
+lib/libdrmmtkutil.so
+lib/libdrmplayreadydecryptor.so
+lib/libplayready.so
+lib/libtz_uree.so
+lib/liburee_meta_drmkeyinstall_v2.so
+lib/drm/libdrmplayreadyplugin.so
+lib/hw/amzn_dha.mt8127.so
+lib/hw/amzn_drmprov.mt8127.so
+vendor/lib/libWVStreamControlAPI_L1.so
+vendor/lib/liboemcrypto.so
+vendor/lib/libwvdrm_L1.so
+vendor/lib/libwvm.so
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/mediadrm/libdrmfpsplugin.so
+vendor/lib/mediadrm/libplayreadydrmplugin.so
+vendor/lib/mediadrm/libwvdrmengine.so
+
+# Firmware
+etc/firmware/ROMv2_patch_1_0_hdr.bin
+etc/firmware/ROMv2_patch_1_1_hdr.bin
+etc/firmware/WMT_SOC.cfg
+vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd
+vendor/firmware/brcm/bcm43569a2-firmware-test.bin
+vendor/firmware/brcm/bcm43569a2-firmware.bin
+vendor/firmware/brcm/bcm43569a2.nvm
+
+# Graphics
+bin/pq
+etc/display_conf
+lib/egl/egl.cfg
+lib/egl/libEGL_mali.so
+lib/egl/libGLESv1_CM_mali.so
+lib/egl/libGLESv2_mali.so
+lib/hw/gralloc.mt8127.so
+lib/hw/hwcomposer.mt8127.so
+lib/libMali.so
+lib/libbwc.so
+lib/libdpframework.so
+lib/libgralloc_extra.so
+lib/libion_mtk.so
+lib/libm4u.so
+lib/libmtk_mali_user.so
+lib/libqservice.so
+
+# HDMI
+bin/auto_hdmi.sh
+bin/hdmi
+lib/libhdmi.so
+lib/libhdmiservice.so
+lib/hw/hdmi_cec.default.so
+
+# Keystore
+lib/hw/keystore.mt8127.so
+
+# Memtrack
+lib/hw/memtrack.mt8127.so
+
+# Misc
+lib/libamazon_remotes.so
+lib/libmtk_drvb.so
+
+# NVRAM
+bin/nvram_agent_binder
+bin/nvram_daemon
+lib/libcustom_nvram.so
+lib/libfile_op.so
+lib/libhwm.so
+lib/libnvram.so
+lib/libnvram_daemon_callback.so
+lib/libnvram_platform.so
+lib/libnvram_sec.so
+lib/libnvramagentclient.so
+
+# Smartvolume
+vendor/smartvolume/tank/anlg_dock_headset.csv
+vendor/smartvolume/tank/aux_digital.csv
+vendor/smartvolume/tank/bt_a2dp.csv
+vendor/smartvolume/tank/bt_a2dp_headphones.csv
+vendor/smartvolume/tank/bt_a2dp_speaker.csv
+vendor/smartvolume/tank/bt_sco_carkit.csv
+vendor/smartvolume/tank/bt_sco.csv
+vendor/smartvolume/tank/bt_sco_headset.csv
+vendor/smartvolume/tank/default.csv
+vendor/smartvolume/tank/dgtl_dock_headeset.csv
+vendor/smartvolume/tank/speaker.csv
+vendor/smartvolume/tank/wired_headphone.csv
+vendor/smartvolume/tank/wired_headset.csv
+
+# Thermal
+bin/thermald
+bin/thermal_manager
+etc/.tp/.ht120.mtc
+etc/.tp/thermal.conf
+etc/.tp/thermal.off.conf
+etc/.tp/thermal.policy.conf
+lib/hw/thermal.mt8127.so
+
+# Wifi
+etc/wifi/p2p_supplicant_overlay.conf
+etc/wifi/wpa_supplicant_overlay.conf
+lib/modules/bcmdhd.ko
