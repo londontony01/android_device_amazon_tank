@@ -70,6 +70,7 @@ bin/amzn_dha_hmac
 bin/amzn_dha_tool
 bin/amzn_drmprov_check
 bin/amzn_drmprov_tool
+bin/rpmb_svc
 bin/kisd
 lib/lib_uree_mtk_video_secure_al.so
 lib/libdrmmtkutil.so
