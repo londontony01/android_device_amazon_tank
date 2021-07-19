@@ -21,6 +21,8 @@ persist.panel.orientation=0
 persist.sys.resolution.auto=1
 
 # HDMI
+persist.sys.display.resolution=1920x1080
+persist.sys.hdmi.resolution=Max
 ro.hdmi.device_type=4
 
 # HWUI
