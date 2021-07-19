@@ -74,12 +74,9 @@ bin/rpmb_svc
 bin/kisd
 lib/lib_uree_mtk_video_secure_al.so
 lib/libdrmmtkutil.so
-lib/libdrmplayreadydecryptor.so
-lib/libplayready.so
 lib/libstlport.so
 lib/libtz_uree.so
 lib/liburee_meta_drmkeyinstall_v2.so
-lib/drm/libdrmplayreadyplugin.so
 lib/hw/amzn_dha.mt8127.so
 lib/hw/amzn_drmprov.mt8127.so
 vendor/lib/libWVStreamControlAPI_L1.so
@@ -88,7 +85,6 @@ vendor/lib/libwvdrm_L1.so
 vendor/lib/libwvm.so
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libdrmfpsplugin.so
-vendor/lib/mediadrm/libplayreadydrmplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # Firmware
