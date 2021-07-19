@@ -102,7 +102,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshim_asp \
     libshim_log \
-    libshim_thermal
+    libshim_thermal \
+    libshim_wvm
 
 # TV
 PRODUCT_PACKAGES += \

@@ -39,3 +39,12 @@ LOCAL_MODULE := libshim_thermal
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := wvm.cpp
+LOCAL_SHARED_LIBRARIES := libstagefright_foundation liblog libmedia libcutils
+LOCAL_MODULE := libshim_wvm
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_SHARED_LIBRARY)
