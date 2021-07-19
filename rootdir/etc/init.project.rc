@@ -7,6 +7,10 @@ on init
     mount tmpfs tmpfs /tmp
     chmod 1775 /tmp
 
+    # Workaround for HDMI issues
+    setprop persist.sys.hdmi.resolution Max
+    start hdmi
+
 ##ACOS_MOD_BEGIN {amazon_logd}
     mkdir /dev/logd 0770 logd log
     mount tmpfs tmpfs /dev/logd mode=0770,uid=1036,gid=1036,size=512K,context=u:object_r:logd_tmpfs:s0
@@ -281,6 +285,7 @@ service hdmi /system/bin/hdmi
 	class main
 	user system
 	group system net_admin inet
+	disabled
 
 service btremoted /system/bin/btremoted
     class late_start
